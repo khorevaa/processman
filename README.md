@@ -4,7 +4,7 @@ A thin layer around [os/exec](https://golang.org/pkg/os/exec/) to run processes 
 
 processman is a library. It provides a simple API to run child processes in your Golang application. 
 
-It runs on macOS and Linux.
+It runs on macOS and Linux. It requires Go 1.14 at least.
 
 ## Usage
 
