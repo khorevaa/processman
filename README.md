@@ -8,9 +8,28 @@ It runs on macOS and Linux. It requires Go 1.14 at least.
 
 ## Status
 
-processman is in early stages of development. See TODO list. 
+processman is in early stages of development. See [TODO](#todo) list. 
 
 Please don't hesitate to open an issue or PR to improve processman.
+
+## Package API
+
+Processman:
+
+* [Command](#command)
+* [StopAll](#stopall)
+* [KillAll](#killall)
+* [Processes](#processes)
+* [Shutdown](#shutdown)
+
+Process:
+
+* [Stop](#stop) 
+* [Kill](#kill)
+* [Getpid](#getpid)
+* [ErrChan](#errchan)
+* [Stdout](#stdout)
+* [Stderr](#stderr)
 
 ## Usage
 
