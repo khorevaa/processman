@@ -6,6 +6,12 @@ processman is a library. It provides a simple API to run child processes in your
 
 It runs on macOS and Linux. It requires Go 1.14 at least.
 
+## Status
+
+processman is in early stages of development. See TODO list. 
+
+Please don't hesitate to open an issue or PR to improve processman.
+
 ## Usage
 
 With a properly configured Golang environment:
@@ -167,3 +173,18 @@ if err != nil {
 }
 fmt.Println("uname -a:", string(data))
 ```
+
+## TODO
+
+* Exponential backoff based restart algorithm for crashed processes,
+* Sample CLI tool for demonstration,
+* Improve tests, 
+* Ability to control `syscall.SysProcAttr` at API level.
+
+## Contributions
+
+Please don't hesitate to fork the project and send a pull request or just e-mail me to ask questions and share ideas.
+
+## License
+
+The Apache License, Version 2.0 - see LICENSE for more details.
